@@ -1,0 +1,103 @@
+body {
+  min-width: 1000px;
+}
+
+.upperItems {
+  float: right;
+}
+.upperItems div {
+  float: left;
+  margin: 5px;
+}
+.upperItems .profile {
+  margin-top: -10px;
+}
+.upperItems .alerts {
+  margin-top: 3px;
+  margin-right: 0px;
+}
+
+
+.upperItems .mail a, .upperItems .images a {
+  color: black;
+  text-decoration:none;
+  font-family: arial;
+  font-size: 13px;
+}
+
+a:hover {
+  text-decoration:underline !important;
+}
+
+.middleItems {
+  position: relative;
+  top: 200px;
+  width: 50%;
+  margin:auto;
+  align-content: center;
+
+}
+.middleItems div {
+  width: auto;
+  align-content: center;
+  margin:auto;
+}
+
+.googleLogo {
+  display: block;
+  margin: auto;
+}
+
+.searchBox {
+  width: 400px;
+  height: 30px;
+  font-size: 15px;
+  position:absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  border: 0px;
+  box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.3);
+
+}
+
+.searchBox:hover{
+  border: 0px;
+  box-shadow: 1px 3px 10px 1px rgba(0,0,0,0.3);
+}
+
+.middleItems div .buttons {
+  position: relative;
+  top: 50px;
+left: 19.5%;
+}
+.middleItems div .maori {
+  position:relative;
+  top: 70px;
+  text-align: center;
+  font-family: arial;
+  font-size: 14px;
+}
+
+.lowerItems {
+  background-color: rgb(228, 228, 228);
+  width: 1010px;
+  position: absolute;
+  bottom: 0;
+}
+
+.lowerItems .right{
+  float: right;
+}
+
+.lowerItems div div {
+  float: left;
+  padding: 15px;
+}
+
+.lowerItems div div a{
+  color: #666;
+  text-decoration:none;
+  font-family: arial;
+  font-size: 13px;
+}
